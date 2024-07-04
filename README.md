@@ -1,6 +1,6 @@
 # Provenance of YouTube-Comments - Dataset-Creation for BERT-Model Based Authorship Attribution
 
-This repository contains the source code used for the practical part of the thesis, submitted on the 4th of July, 2024.
+This repository contains the source code used for the practical part of the same name thesis, submitted on the 4th of July, 2024.
 
 ## Code overview:
 - dataset_creation contains the code used for the pre-processing of the collected raw comments data (chapter 3.2)
