@@ -2,6 +2,9 @@
 
 This repository contains the source code used for the practical part of the same name thesis, submitted on the 4th of July, 2024.
 
+## Abstract:
+The concern about manipulation of public opinion through social media-supported disinformation campaigns makes recognizing coordinated user activities and detecting social bots an important research topic. With this work, a fundamental contribution to the analysis of orchestrated user accounts appearing in YouTube comment sections is made by creating a dataset suitable for authorship attribution with BERT models from YouTube comments. To verify the suitability of the developed dataset for authorship attribution of YouTube comments with BERT models, authorship attribution was interpreted as a sequence classification task, where each author is assigned a unique label. By comparing the accuracies determined for this task, the most performant configuration of model and fine-tuning dataset was identified. According to current knowledge, TuBERT is the first BERT model trained for authorship attribution on YouTube comments. Additionally, the attention distribution (attention weights) underlying TuBERT's classification was analyzed, and it was shown that the embeddings of the comments within the TuBERT model are suitable for clustering these comments by their writing style and the topics they address. Thus, this work also lays a foundation for the automated use of BERT-based LLMs for detecting coordinated commentators and social bots on YouTube.
+
 ## Code overview:
 - dataset_creation contains the code used for the pre-processing of the collected raw comments data (chapter 3.2)
     - preprocessing.py: the script which is illustrated in Listing 3.1
